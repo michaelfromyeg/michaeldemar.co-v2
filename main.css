@@ -1,0 +1,111 @@
+body, html {
+  height: 100%;
+}
+
+#jumbo {
+  background-color:darkgrey;
+  color:white;
+  background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8) ), url("Images/city-of-edmonton.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+
+.jumbotron {
+  padding-bottom: 10em;
+}
+
+h1 {
+  font-size:50px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.jumbotron img {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+#socials {
+  background: none;
+  padding: 20px;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#socials-footer {
+  background:none;
+  font-size:20px;
+  padding:10px;
+  color:black;
+  text-decoration:none;
+}
+
+.fa:hover {
+  text-decoration: none;
+}
+
+.fa-facebook:hover {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  color: #3B5998;
+}
+
+.fa-instagram:hover {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  color: #ffdc80;
+}
+
+.fa-twitter:hover {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  color: #1DA1F2;
+}
+
+.fa-youtube:hover {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  color: #ff0000;
+}
+
+.fa-github:hover {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  color: #4078c0;
+}
+
+#parallax {
+  background-image: url("Images/parallax-image-universe.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcome {
+  width:500px;
+  text-align:center;
+  float: none;
+  margin: 0 auto;
+}
+
+.center-block {
+  display: table;
+  margin: auto;
+}
+
+.container-fluid {
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+div#collapsibleNavbar a.nav-link:hover {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  color:#ff0000;
+}
