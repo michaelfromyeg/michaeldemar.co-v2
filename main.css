@@ -1,12 +1,12 @@
 body, html {
-  height: 100%;
+  height: 100vh;
 }
 
 #jumbo {
   background-color:darkgrey;
   color:white;
   background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8) ), url("Images/city-of-edmonton.jpg");
-  height: 100%;
+  height: 100vh;
   min-height:500px;
   background-position: center;
   background-repeat: no-repeat;
