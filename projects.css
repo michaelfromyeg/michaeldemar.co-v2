@@ -1,0 +1,8 @@
+#jumbo {
+  height: 50vh;
+}
+
+a.card,
+a.card:hover {
+  color: inherit;
+}
