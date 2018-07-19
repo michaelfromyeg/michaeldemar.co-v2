@@ -2,8 +2,26 @@
   height: 50vh;
 }
 
-#experience {
+#leadership, #graphicdesign, #academia {
 
   max-width:700px;
 
+}
+
+#parallax1 {
+  background-image: url("Images/sunia-group.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax2 {
+  background-image: url("Images/book-compilation.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
