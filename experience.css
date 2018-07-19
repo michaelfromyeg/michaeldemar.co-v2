@@ -1,11 +1,13 @@
+body, html {
+  height: 100vh;
+}
+
 #jumbo {
   height: 50vh;
 }
 
 #leadership, #graphicdesign, #academia {
-
   max-width:1000px;
-
 }
 
 #parallax1 {
