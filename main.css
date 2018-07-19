@@ -90,7 +90,7 @@ h1 {
 
 #parallax {
   background-image: url("Images/parallax-image-universe.jpg");
-  height: 50%;
+  height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
