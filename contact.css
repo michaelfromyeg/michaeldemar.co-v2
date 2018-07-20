@@ -1,3 +1,25 @@
 #jumbo {
   height: 50vh;
 }
+
+#contactForm {
+
+  max-width:1200px;
+
+}
+
+body {
+
+}
+h1{
+
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
