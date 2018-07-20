@@ -1,3 +1,7 @@
 #jumbo {
   height: 50vh;
 }
+
+#biography {
+  max-width:1000px;
+}
