@@ -71,6 +71,67 @@
         <p id="welcome">Get in touch with me through the form below.</p>
         </div>
 
+
+	<div class="form-container">
+		<form action="form.php">
+				<div class="row">
+					<div class="col-25">
+						<label for="fname">First Name</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="fname" name="firstname" placeholder="">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="lname">Last Name</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="lname" name="lastname" placeholder="">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="email">Email</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="email" name="email" placeholder="joe@example.com">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="subject">Subject</label>
+					</div>
+					<div class="col-75">
+						<select id="subject" name="subject">
+							<option value="tutoring">Tutoring</option>
+							<option value="graphics">Graphic Design</option>
+							<option value="general">General Inquiry</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="message">Message</label>
+					</div>
+					<div class="col-75">
+						<textarea id="message" name="message" placeholder="Write your message here!" style="height:200px"></textarea>
+					</div>
+				</div>
+
+				<div style="float:right" class="row">
+					<input class="submit" type="submit" value="Submit">
+				</div>
+
+		</form>
+	</div>
+
+
+
         <div class="container-fluid" style="margin-bottom:0px;" id="footer">
           <div class="row">
             <div class="center-block" style="padding-bottom:10px;">
@@ -88,11 +149,6 @@
           </div>
         </div>
       </div>
-
-      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <script src="validator.js"></script>
-      <script src="contact.js"></script>
 
       </body>
       </html>
