@@ -27,3 +27,11 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+li span {
+  font-style: italic;
+}
+
+ul.resume {
+  list-style: none;
+}
