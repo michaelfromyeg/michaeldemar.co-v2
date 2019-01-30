@@ -22,6 +22,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="lazyloading.js"></script>
   <style>
   .fakeimg {
     height: 400px;
@@ -82,68 +83,27 @@
     </div>
 
     <div class="container-fluid" style="max-width:1200px;" id="projectCards">
+        
         <div class="card-columns">
 
           <div class="card">
-            <img class="card-img-top" src="Images/cslc-logo-portfolio-01.jpg" alt="CSLC 2018">
+            <img class="lazy" class="card-img-top" data-src="Images/cslc-logo-portfolio-01.jpg" alt="CSLC 2018">
             <div class="card-body">
               <h5 class="card-title">CSLC 2018 Logo Concept</h5>
               <p class="card-text">I assisted with some of the branding with the Canadian Student Leadership Conference (2018). Here you can see my original, unfinished logo concept (left) beside the final logo (right) created by a professional graphic designer working at Harry Ainlay.</p>
             </div>
           </div>
 
-          <div class="card p-3">
-            <blockquote class="blockquote mb-0 card-body">
-              <p style="font-size:15px;">It is essential that the student acquire an understanding of and a lively feeling for values. He must acquire a vivid sense of the beautiful and of the morally good. Otherwise he - with his specialized knowledge - more closely resembles a well-trained dog than a harmoniously developed person.</p>
-              <footer class="blockquote-footer">
-                <small class="text-muted">
-                  Albert Einstein, <cite title="Source Title">"Education for Independent Thought"</cite> (NYT)
-                </small>
-              </footer>
-            </blockquote>
-          </div>
-
           <div class="card">
-            <img class="card-img-top" src="Images/staffspeaks-01.jpg" alt="SUNIA Branding">
+            <img class="lazy" class="card-img-top" data-src="Images/staffspeaks-01.jpg" alt="Staff Speaks banner">
             <div class="card-body">
-              <h5 class="card-title">SUNIA Design</h5>
+              <h5 class="card-title">Staff Speaks</h5>
               <p class="card-text">I am actively helping with the branding of SUNIA, an annual week-long summer camp. Above is a banner I created for our blog series called "Staff Speaks."</p>
             </div>
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/infographic-01.jpg" alt="Italy infographic">
-            <div class="card-body">
-              <h5 class="card-title">McNally Heritage Festival Inforgraphic</h5>
-              <p class="card-text">Above is an Italy inforgraphic I created for my school's heritage festival inspired event.</p>
-            </div>
-          </div>
-
-          <div class="card text-left">
-            <div class="card-body">
-              <h5 class="card-title">Far-Right Populism: Globalization's Troubling Consequence</h5>
-              <p class="card-text">'The resurgence of the far-right is inextricably linked to the zenith of third-wave globalization. The development of income inequality...' My grade ten research assignment explores globalization as a cause of populism. Click to read more!</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-design.jpg" alt="Illustrator Logo">
-            <div class="card-body">
-              <h5 class="card-title">Design Company Logo Concept</h5>
-              <p class="card-text">Here's a design company logo I created in grade seven; it was my first ever logo!</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="card-img-top" src="Images/a-boat-01-edit.jpg" alt="Poem Poster">
-            <div class="card-body">
-              <h5 class="card-title">Poster for Lewis Carroll Poem</h5>
-              <p class="card-text">While practicing making posters and studying posters, I created this poster for Lewis Carroll's 'A Boat Beneath a Sunny Sky.'</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="card-img-top" src="Images/bikeathon-geofilter-01.jpg" alt="Bike-a-thon Geofilter">
+            <img class="lazy" class="card-img-top" data-src="Images/bikeathon-geofilter-01.jpg" alt="Bike-a-thon Geofilter">
             <div class="card-body">
               <h5 class="card-title">Bike-a-thon Geofilter</h5>
               <p class="card-text">Above is a geofilter I created for our annual Bike-a-thon event at McNally.</p>
@@ -151,23 +111,7 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/bikeathon-logo-2017-01.jpg" alt="Bike-a-thon Logo 2017">
-            <div class="card-body">
-              <h5 class="card-title">Bike-a-thon Logo (2017)</h5>
-              <p class="card-text">Here is a logo concept I created for McNally's Bike-a-thon in 2017.</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="card-img-top" src="Images/bikeathon-logo-2018-01.jpg" alt="Bike-a-thon Logo 2018">
-            <div class="card-body">
-              <h5 class="card-title">Bike-a-thon Logo (2018)</h5>
-              <p class="card-text">Additionally, here is a logo concept I created for McNally's Bike-a-thon in 2018.</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="card-img-top" src="Images/bikeathon-team-covers-25.jpg" alt="Bike-a-thon Team Cover">
+            <img class="lazy" class="card-img-top" data-src="Images/bikeathon-team-covers-25.jpg" alt="Bike-a-thon Team Cover">
             <div class="card-body">
               <h5 class="card-title">Bike-a-thon Team Card</h5>
               <p class="card-text">Above is an example Bike-a-thon team cover.</p>
@@ -175,7 +119,7 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/blood-sweat-gears-01.jpg" alt="Bike-a-thon Team Logo">
+            <img class="lazy" cclass="card-img-top" data-src="Images/blood-sweat-gears-01.jpg" alt="Bike-a-thon Team Logo">
             <div class="card-body">
               <h5 class="card-title">Bike-a-thon Team Logo</h5>
               <p class="card-text">Here is a little logo I created for my Bike-a-thon team, 'Blood, Sweat, & Gears.</p>
@@ -183,15 +127,7 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/dagon-logo-01.jpg" alt="Dagon J.B.P. Logo">
-            <div class="card-body">
-              <h5 class="card-title">Dagon J.B.P. Logo</h5>
-              <p class="card-text">This is a title card I created for a friend's YouTube channel.</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="card-img-top" src="Images/demarcodesign-deer.jpg" alt="DeMarco Design Wallpaper">
+            <img class="lazy" class="card-img-top" data-src="Images/demarcodesign-deer.jpg" alt="DeMarco Design Wallpaper">
             <div class="card-body">
               <h5 class="card-title">DeMarco Design Wallpaper</h5>
               <p class="card-text">A simple deer-inspired wallpaper concept.</p>
@@ -199,7 +135,7 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-blur.jpg" alt="Blur Photoshop Project">
+            <img class="lazy" class="card-img-top" data-src="Images/DeMarco-blur.jpg" alt="Blur Photoshop Project">
             <div class="card-body">
               <h5 class="card-title">Blur Photoshop Project</h5>
               <p class="card-text">A Photoshop project I created using a simple blur.</p>
@@ -207,7 +143,7 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-disc.jpg" alt="Disc Photoshop Project">
+            <img class="lazy" class="card-img-top" data-src="Images/DeMarco-disc.jpg" alt="Disc Photoshop Project">
             <div class="card-body">
               <h5 class="card-title">Disc Photoshop Project</h5>
               <p class="card-text">A Photoshop project showing an example album disc.</p>
@@ -215,7 +151,7 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-face.jpg" alt="Faceswap Photoshop Project">
+            <img class="lazy" class="card-img-top" data-src="Images/DeMarco-face.jpg" alt="Faceswap Photoshop Project">
             <div class="card-body">
               <h5 class="card-title">Faceswap Photoshop Project</h5>
               <p class="card-text">A simple faceswap done in Photoshop.</p>
@@ -223,23 +159,23 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-focus.jpg" alt="Focus Photoshop Project">
+            <img class="lazy" class="card-img-top" data-src="Images/DeMarco-focus.jpg" alt="Focus Photoshop Project">
             <div class="card-body">
               <h5 class="card-title">Focus Photoshop Project</h5>
               <p class="card-text">A simple Photoshop edit of Christiano Ronaldo.</p>
             </div>
           </div>
 
-          <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-heat.jpg" alt="Heat Photoshop Project">
-            <div class="card-body">
-              <h5 class="card-title">Heat Photoshop Project</h5>
-              <p class="card-text">A simple Photoshop edit of Lebron James.</p>
-            </div>
+        <div class="card">
+          <img class="lazy" class="card-img-top" data-src="Images/DeMarco-heat.jpg" alt="Heat Photoshop Project">
+          <div class="card-body">
+            <h5 class="card-title">Heat Photoshop Project</h5>
+            <p class="card-text">A simple Photoshop edit of Lebron James.</p>
           </div>
+        </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-funny.jpg" alt="Funny Photoshop Project">
+            <img class="lazy" class="card-img-top" data-src="Images/DeMarco-funny.jpg" alt="Funny Photoshop Project">
             <div class="card-body">
               <h5 class="card-title">Funny Photoshop Project</h5>
               <p class="card-text">A Photoshop edit with a sense of humor!</p>
@@ -247,7 +183,7 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-motion.jpg" alt="Motion Photoshop Project">
+            <img class="lazy" class="card-img-top" data-src="Images/DeMarco-motion.jpg" alt="Motion Photoshop Project">
             <div class="card-body">
               <h5 class="card-title">Motion Photoshop Project</h5>
               <p class="card-text">A Photoshop edit to speed up this car.</p>
@@ -255,16 +191,23 @@
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="Images/DeMarco-wallpaper.jpg" alt="Animal Wallpaper Photoshop Project">
+            <img class="lazy" class="card-img-top" data-src="Images/DeMarco-wallpaper.jpg" alt="Animal Wallpaper Photoshop Project">
             <div class="card-body">
               <h5 class="card-title">Animal Wallpaper Photoshop Project</h5>
               <p class="card-text">An animal wallpaper created in photoshop.</p>
             </div>
           </div>
 
+         <div class="card">
+            <img class="lazy" class="card-img-top" data-src="Images/photography-logo-02-01.jpg" alt="Photography Teacher Logo">
+            <div class="card-body">
+              <h5 class="card-title">McNally Photography Logo</h5>
+              <p class="card-text">This logo was designed for McNally's Media Archive Team. Our photography teacher now uses it for his email signature also!</p>
+            </div>
+          </div>
         </div>
-
       </div>
+    </div>
 
         <div class="container-fluid" style="margin-bottom:0px;" id="footer">
           <div class="row">
