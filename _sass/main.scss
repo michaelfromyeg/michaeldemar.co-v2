@@ -7,12 +7,13 @@ body, html {
   margin: 0;
   padding: 0;
 }
+
 a {
   color:inherit;
 }
 
 a.socials {
-  padding: 20px;
+  padding: 10px;
   font-size: 25px;
   width: 30px;
   text-align: center;
@@ -64,10 +65,6 @@ div#collapsibleNavbar a.nav-link:hover {
   transition: 0.5s;
   transition-timing-function: ease;
   color:#87CEEB;
-}
-
-div#collapsibleNavbar .navbar-toggler-icon {
-  color:white;
 }
 
 .navbar {
@@ -150,12 +147,6 @@ div.credit {
   margin:50px;
 }
 
-/*p {
-  width:80%;
-  text-align:left;
-  margin: 0 auto;
-}*/
-
 footer {
   display:block;
   margin-top:50px;
@@ -187,7 +178,6 @@ ul.no-bullet {
 }
 
 /*
-
 <div class="hs">
     <img class="circle" src="assets/images/grad-photo-square.jpg" width="125px;" height="125px;"/>
   </div>

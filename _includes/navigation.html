@@ -1,14 +1,17 @@
-<nav class="navbar navbar-expand-md sticky-top justify-content-center">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top justify-content-center">
+
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon text-white"></span>
+        <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
 		<ul class="navbar-nav">
-
 	  		{% for item in site.data.navigation %}
-	    		<li class="nav-item"><a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+	    		<li class="nav-item">
+	    			<a class="nav-link" style="text-align:center;" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+	    		</li>
 	 		{% endfor %}
-
 		</ul>
 	</div>
+
 </nav>
