@@ -1,3 +1,5 @@
+baseurl: "/michaeldemar.co-v2"
+
 collections:
   authors:
     output: true
