@@ -8,7 +8,7 @@
 		<ul class="navbar-nav">
 	  		{% for item in site.data.navigation %}
 	    		<li class="nav-item">
-	    			<a class="nav-link" style="text-align:center;" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+	    			<a class="nav-link" style="text-align:center;" href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
 	    		</li>
 	 		{% endfor %}
 		</ul>
