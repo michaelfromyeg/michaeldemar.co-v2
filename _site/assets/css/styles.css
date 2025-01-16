@@ -173,7 +173,7 @@ ul.no-bullet {
 
 /*
 <div class="hs">
-    <img class="circle" src="assets/images/grad-photo-square.jpg" width="125px;" height="125px;"/>
+    <img class="circle" src="{{ site.baseurl }}/assets/images/grad-photo-square.jpg" width="125px;" height="125px;"/>
   </div>
 */
 div h6 {

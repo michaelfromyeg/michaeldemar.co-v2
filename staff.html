@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
+
 <h1 class="title">Staff</h1>
 
 <ul class="no-bullet">
-  {% for author in site.authors %}
+    {% for author in site.authors %}
     <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
+        <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+        <h3>{{ author.position }}</h3>
+        <p>{{ author.content | markdownify }}</p>
     </li>
-  {% endfor %}
+    {% endfor %}
 </ul>
