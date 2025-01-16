@@ -73,7 +73,7 @@ div#collapsibleNavbar a.nav-link:hover {
 
 .header {
   /* background image */
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.3)), url("/../assets/images/crimson-sky.jpg");
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.3)), url("/michaeldemar.co-v2/assets/images/crimson-sky.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
